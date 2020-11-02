@@ -1,0 +1,48 @@
+{
+  "name": "chat-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "MODE=development webpack serve",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "Emil Haukeland <emil.haukeland@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "eslint": "^7.12.0",
+    "formik": "^2.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "regenerator-runtime": "^0.13.7",
+    "styled-components": "^5.2.0",
+    "typescript": "^4.0.3",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-serve": "^3.2.0"
+  },
+  "browserslist": [
+    "> .5%"
+  ]
+}
